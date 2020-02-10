@@ -5,4 +5,4 @@ The "*" character is a point
 The "X" character is an enemy
 The "&" character deletes 3 enemies from the map.
 
-https://github.com/austinrtn/Text-Runner/blob/master/ezgif.com-video-to-gif.gif
+![](ezgif.com-video-to-gif.gif)

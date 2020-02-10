@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <style media="screen">
+      div{
+        font-size:28px;
+
+      }
+      .player{
+        color: "green";
+      }
+    </style>
+    <meta charset="utf-8">
+    <title>Text Runner</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id='gameboard'></div> <br>
+
+    <h4 style= display:inline; id='points'>Points: 0</h2>
+
+    <select id='enemySpeedOption' onchange='setEnemySpeed();'>
+      <option disabled selected>Enemy Speed</option>
+      <option value=1000>Slow</option>
+      <option value=800>Medium</option>
+      <option value=400>Fast</option>
+      <option value=250>Very Fast</option>
+
+    </select>
+
+    <button  onclick='startGame();'>Start Game</button>
+    <button onclick="alert('Use WASD to move. \nCollect points (*).\nAvoid Enemies (X).\nDelete enemies (&).');" >Instructions</button>
+    <script src="./src.js">  </script>
+  </body>
+</html>
